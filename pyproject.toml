@@ -1,0 +1,34 @@
+[project]
+name = "pendulab"
+version = "0.1.0"
+description = "Double-pendulum simulation in C++ and Python, validated against reference solutions and identified from real recordings with a differentiable NVIDIA Warp simulator"
+readme = "README.md"
+authors = [
+    { name = "Aaryan Pallath", email = "pallathaaryan1@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "scipy>=1.18.1",
+    "warp-lang>=1.19.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.18,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

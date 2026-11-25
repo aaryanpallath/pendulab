@@ -1,0 +1,35 @@
+{
+  "params": "warp fit (c = 1 units)",
+  "rows": [
+    {
+      "t_after_release_s": 0,
+      "measured_energy_above_rest": 1150.5368124877828,
+      "simulated_energy_above_rest": 1151.4322015071784
+    },
+    {
+      "t_after_release_s": 5,
+      "measured_energy_above_rest": 915.4118928850316,
+      "simulated_energy_above_rest": 972.5663924212963
+    },
+    {
+      "t_after_release_s": 10,
+      "measured_energy_above_rest": 692.154911290606,
+      "simulated_energy_above_rest": 782.702698373542
+    },
+    {
+      "t_after_release_s": 20,
+      "measured_energy_above_rest": 403.53619870238845,
+      "simulated_energy_above_rest": 505.1156143943306
+    },
+    {
+      "t_after_release_s": 40,
+      "measured_energy_above_rest": 111.85580597602927,
+      "simulated_energy_above_rest": 237.60011089693808
+    },
+    {
+      "t_after_release_s": 60,
+      "measured_energy_above_rest": 6.825148953758799,
+      "simulated_energy_above_rest": 138.4513167929063
+    }
+  ]
+}
